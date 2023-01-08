@@ -1,0 +1,31 @@
+{
+  "name": "devcamper",
+  "version": "1.0.0",
+  "description": "Bootcamp crud app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "NODE_ENV= production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsalanadeeb/devCamper.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongo",
+    "JWT"
+  ],
+  "author": "Arsalan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arsalanadeeb/devCamper/issues"
+  },
+  "homepage": "https://github.com/arsalanadeeb/devCamper#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
