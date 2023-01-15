@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "start": "NODE_ENV= production node server",
-    "dev": "nodemon server"
+    "dev": "NODE_ENV=development nodemon server"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,10 @@
   },
   "homepage": "https://github.com/arsalanadeeb/devCamper#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "morgan": "^1.10.0"
   }
 }
